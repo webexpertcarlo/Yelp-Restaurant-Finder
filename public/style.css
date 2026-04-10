@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, Segoe UI, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #1a1a1a;
+  background: #f4f4f4;
+}
+
+.wrap {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem;
+}
+
+.hint {
+  margin: 0 0 1rem;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+input[type="text"] {
+  flex: 1;
+  min-width: 12rem;
+  padding: 0.65rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 0.65rem 1.1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #c41200;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #a30f00;
+}
+
+.status {
+  margin: 1rem 0 0.5rem;
+  min-height: 1.4em;
+  color: #333;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #ddd;
+}
+
+.name {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.meta,
+.addr,
+.coords {
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.coords {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #0066c0;
+}
+
+.copy-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-right: 0.75rem;
+  padding: 0.45rem 0.8rem;
+  font-size: 0.9rem;
+  background: #222;
+}
+
+.copy-btn:hover {
+  background: #111;
+}

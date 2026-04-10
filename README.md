@@ -1,0 +1,30 @@
+# Yelp City Restaurants
+
+Simple app to get nearby restaurant details.
+Enter a city and get restaurant results from Yelp.
+
+What you see:
+- Name
+- Rating
+- Address
+- Coordinates
+- Copy address button
+
+## Run locally
+
+1. Install packages:
+   - `npm install`
+2. Create a `.env` file in the project root
+3. Add your key in `.env`:
+   - `YELP_API_KEY=your_yelp_api_key`
+4. Start app:
+   - `npm start`
+5. Open in browser:
+   - `http://localhost:5412`
+
+If the key is missing, the app shows an error.
+
+Important:
+- `.env` is ignored by git (key stays private)
+- Push `.env.example` only
+- Other users must add their own Yelp key in `.env`
