@@ -24,6 +24,10 @@ What you see:
 
 If the key is missing, the app shows an error.
 
+Example Result : 
+
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/78d3423c-323b-4a1a-95f7-254f83509be2" />
+
 Important:
 - `.env` is ignored by git (key stays private)
 - Push `.env.example` only
