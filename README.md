@@ -11,15 +11,15 @@ What you see:
 - Copy address button
 
 ## Run locally
-
-1. Install packages:
+1. Clone repo to your local 
+2. Install packages:
    - `npm install`
-2. Create a `.env` file in the project root
-3. Add your key in `.env`:
+3. Create a `.env` file in the project root
+4. Add your key in `.env`:
    - `YELP_API_KEY=your_yelp_api_key`
-4. Start app:
+5. Start app:
    - `npm start`
-5. Open in browser:
+6. Open in browser:
    - `http://localhost:5412`
 
 If the key is missing, the app shows an error.
